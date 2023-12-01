@@ -1,4 +1,5 @@
 from pathlib import Path
+
 totalValue = 0
 p = Path(__file__).with_name('input.txt') 
 with p.open('r') as f:
